@@ -1,6 +1,6 @@
 # Testnet-blocksize-fork-data-Raw
 For some tests I use Blocktrail testnet webhooks, 
-[Here](https://gist.github.com/shayanb/c28c8af40deb2248f018) are all the blocks (in structured format) that my service rejected in last ~2 weeks for various reasons,
+Here are all the blocks (in structured format) that my service rejected in last ~2 weeks for various reasons,
 some are just timeout issues that took more time than the next block to reach my server and considered an older block,
 and the later ones are regarding the forks on testnet blockchain for blocksize proposals (BIP101, 8MB vote, ... )
 
@@ -30,5 +30,3 @@ e.g.
       * "height": 601529
       * "block_time": "2015-11-11T08:20:02+0000"
       * "arrival_time":"2015-11-11T06:33:13+0000"
-
-[Github gist](https://gist.github.com/shayanb/c28c8af40deb2248f018)
